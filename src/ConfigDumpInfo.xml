@@ -1,7 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
 	<ConfigVersions>
-		<Metadata name="Configuration.BoardFootCalculator" id="00f54742-190d-499d-a8fa-67e9f779c2ed" configVersion="d9d5676bfbf9a848ba25b8a4fca2d04700000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95" configVersion="c72443edd102484b970f2d35acb67daf00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95.0" configVersion="1a573163bc6e734290b07f1f86616ee700000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="125b2493-7a0e-470d-8ca1-638d9f4ce627" configVersion="fd812532efbef34dba38edfd970f3f9f00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="125b2493-7a0e-470d-8ca1-638d9f4ce627.0" configVersion="ee64b2de8884d34b861990bf9a6e5a3e00000000"/>
+		<Metadata name="Configuration.BoardFootCalculator" id="00f54742-190d-499d-a8fa-67e9f779c2ed" configVersion="1db9e90ab11ff34b8675c126c0205bb300000000"/>
+		<Metadata name="Configuration.BoardFootCalculator.ManagedApplicationModule" id="fd714490-48fc-4af9-a7cb-baebde4950e8.6" configVersion="505309264165ed4c89d9836ecc2fdca500000000"/>
+		<Metadata name="Constant.ТипМобильногоУстройства" id="e47070fd-73da-4f7c-aaa1-217a0dd6ee54" configVersion="0de8c6ea6c987e428bc29f4577ed642f00000000"/>
+		<Metadata name="Enum.ТипыМобильныхУстройств" id="11b14e95-5238-4df0-b171-fab09563de7c" configVersion="77929c1545c9da4399e9726de688cca400000000">
+			<Metadata name="Enum.ТипыМобильныхУстройств.EnumValue.Плафон" id="6d6c4096-081f-4ac0-b487-66b330e2e47f"/>
+			<Metadata name="Enum.ТипыМобильныхУстройств.EnumValue.Смартфон" id="7b711021-6c9d-429f-8cb7-de0b448e5b2c"/>
+			<Metadata name="Enum.ТипыМобильныхУстройств.EnumValue.Планшет" id="bee5899a-64fd-492e-9fd7-a09e31188f50"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="53adfaac-5b1f-4e2c-aa6b-a567c1f7b844" configVersion="435d1670d0558d4c84557fe2142df2da00000000"/>
+		<Metadata name="Subsystem.Пиломатериалы" id="fab7ee5b-97ab-4ce3-9764-b7a8a4bb4668" configVersion="89088c013e23ff408c68d16e31fca41900000000"/>
+		<Metadata name="Subsystem.Служебная" id="bc1af231-72d2-4625-91fb-72d294ce2fe1" configVersion="d08595a652bc70439d7f8c0a434d76eb00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

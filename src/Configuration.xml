@@ -155,6 +155,12 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Пиломатериалы</Subsystem>
+			<Subsystem>Служебная</Subsystem>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
+			<Constant>ТипМобильногоУстройства</Constant>
+			<Enum>ТипыМобильныхУстройств</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
