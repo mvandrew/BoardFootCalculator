@@ -11,8 +11,8 @@
 			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Ширина" id="a7a0ab3f-a13e-404e-8279-46995295866a"/>
 			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Длина" id="fb04119a-d2e6-4825-a23d-8328a2116fb0"/>
 		</Metadata>
-		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента" id="156a9766-c012-42b9-9a5c-e75338b7e068" configVersion="0ae4774e43e80842b4357de0c66fe0b800000000"/>
-		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента.Form" id="156a9766-c012-42b9-9a5c-e75338b7e068.0" configVersion="acbdd76983162e4a8eabb026b32a1d6000000000"/>
+		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента" id="156a9766-c012-42b9-9a5c-e75338b7e068" configVersion="22293bd7cdb14743822eb5aee3a6efa500000000"/>
+		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента.Form" id="156a9766-c012-42b9-9a5c-e75338b7e068.0" configVersion="14b757f40d2fb04890af12aad8f2af7300000000"/>
 		<Metadata name="CommonCommand.ОткрытьБазовыеНастройки" id="85eaba9f-9ff8-4574-8219-a802de543a80" configVersion="47f8a2f2d2c5464c8944fc76b93cab9c00000000"/>
 		<Metadata name="CommonCommand.ОткрытьБазовыеНастройки.CommandModule" id="85eaba9f-9ff8-4574-8219-a802de543a80.2" configVersion="eed9730ff5d2bd479e8861fc4fe766ac00000000"/>
 		<Metadata name="CommonForm.БазовыеНастройки" id="c5722afa-6951-458b-b8c3-36ec8336b7b2" configVersion="2c6d939f591b79448b28c9b123111aba00000000"/>
