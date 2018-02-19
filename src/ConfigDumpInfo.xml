@@ -11,16 +11,16 @@
 			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Ширина" id="a7a0ab3f-a13e-404e-8279-46995295866a"/>
 			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Длина" id="fb04119a-d2e6-4825-a23d-8328a2116fb0"/>
 		</Metadata>
-		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента" id="156a9766-c012-42b9-9a5c-e75338b7e068" configVersion="22293bd7cdb14743822eb5aee3a6efa500000000"/>
-		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента.Form" id="156a9766-c012-42b9-9a5c-e75338b7e068.0" configVersion="14b757f40d2fb04890af12aad8f2af7300000000"/>
+		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента" id="156a9766-c012-42b9-9a5c-e75338b7e068" configVersion="6f3bbc8c4c2b374ba783b908c7461dad00000000"/>
+		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента.Form" id="156a9766-c012-42b9-9a5c-e75338b7e068.0" configVersion="548615a57341f24c8c4c17e25c8f4e5000000000"/>
 		<Metadata name="CommonCommand.ОткрытьБазовыеНастройки" id="85eaba9f-9ff8-4574-8219-a802de543a80" configVersion="47f8a2f2d2c5464c8944fc76b93cab9c00000000"/>
 		<Metadata name="CommonCommand.ОткрытьБазовыеНастройки.CommandModule" id="85eaba9f-9ff8-4574-8219-a802de543a80.2" configVersion="eed9730ff5d2bd479e8861fc4fe766ac00000000"/>
 		<Metadata name="CommonForm.БазовыеНастройки" id="c5722afa-6951-458b-b8c3-36ec8336b7b2" configVersion="2c6d939f591b79448b28c9b123111aba00000000"/>
 		<Metadata name="CommonForm.БазовыеНастройки.Form" id="c5722afa-6951-458b-b8c3-36ec8336b7b2.0" configVersion="f619bc9bb3ab3e46b5234c915e5daa9f00000000"/>
 		<Metadata name="CommonModule.ИнициализацияНаСервере" id="89eb583e-dcc0-442a-a5fe-39089d7ba610" configVersion="0300a766ee26cd438ce0edaffaad345600000000"/>
 		<Metadata name="CommonModule.ИнициализацияНаСервере.Module" id="89eb583e-dcc0-442a-a5fe-39089d7ba610.0" configVersion="9bf65ac325de214688933df9eb609c5e00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95" configVersion="5d62efaf275cfb47bbdcf9e68d9f6fbf00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95.0" configVersion="4c2e705985b3444784be8ce832cf5f1900000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95" configVersion="9884dbe3e6e46744964b13daae7b7cfd00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95.0" configVersion="b659a402adfd8a488e8358541bf778ae00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="125b2493-7a0e-470d-8ca1-638d9f4ce627" configVersion="bf93009c5e5803469554f7e7eda8821200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="125b2493-7a0e-470d-8ca1-638d9f4ce627.0" configVersion="60c5f86fec443a48b91d9a9a9d5a88f200000000"/>
 		<Metadata name="Configuration.BoardFootCalculator" id="00f54742-190d-499d-a8fa-67e9f779c2ed" configVersion="d311be7bf9894141b3550982aa16b8a800000000"/>
