@@ -159,8 +159,18 @@
 			<Subsystem>Служебная</Subsystem>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
+			<CommonModule>ИнициализацияНаСервере</CommonModule>
+			<CommonCommand>ОткрытьБазовыеНастройки</CommonCommand>
 			<Constant>ТипМобильногоУстройства</Constant>
+			<Constant>ЕдиницаШирины</Constant>
+			<Constant>ЕдиницаВысоты</Constant>
+			<Constant>ЕдиницаДлины</Constant>
+			<CommonForm>БазовыеНастройки</CommonForm>
+			<Catalog>ВидыПиломатериалов</Catalog>
 			<Enum>ТипыМобильныхУстройств</Enum>
+			<Enum>ТипыПиломатериалов</Enum>
+			<Enum>ЕдиницыИзмерения</Enum>
+			<InformationRegister>СохраняемыеНастройки</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

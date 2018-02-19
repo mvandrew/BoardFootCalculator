@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаЕдиницыИзмерения" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единицы измерения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа единицы измерения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаЕдиницыИзмеренияРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЕдиницаШирины" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа единица ширины</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа единица ширины</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЕдиницаШириныРасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<InputField name="ЕдиницаШирины" id="1">
+							<DataPath>НаборКонстант.ЕдиницаШирины</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕдиницаШириныКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ЕдиницаШириныРасширеннаяПодсказка" id="3"/>
+							<Events>
+								<Event name="OnChange">ЕдиницаШириныПриИзменении</Event>
+							</Events>
+						</InputField>
+						<LabelDecoration name="ДекорацияЕдиницаШирины" id="14">
+							<TextColor>style:TableFooterTextColor</TextColor>
+							<Font ref="style:SmallTextFont" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Укажите единицу измерения ширины по-умолчанию, которая будет использоваться при создании новых шаблонов материалов и во время расчётов.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЕдиницаШириныКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ДекорацияЕдиницаШириныРасширеннаяПодсказка" id="16"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаЕдиницаВысоты" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа единица высоты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа единица высоты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЕдиницаВысотыРасширеннаяПодсказка" id="20"/>
+					<ChildItems>
+						<InputField name="ЕдиницаВысоты" id="4">
+							<DataPath>НаборКонстант.ЕдиницаВысоты</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕдиницаВысотыКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ЕдиницаВысотыРасширеннаяПодсказка" id="6"/>
+							<Events>
+								<Event name="OnChange">ЕдиницаВысотыПриИзменении</Event>
+							</Events>
+						</InputField>
+						<LabelDecoration name="ДекорацияЕдиницаВысоты" id="21">
+							<TextColor>style:TableFooterTextColor</TextColor>
+							<Font ref="style:SmallTextFont" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Укажите единицу измерения высоты по-умолчанию.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЕдиницаВысотыКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="ДекорацияЕдиницаВысотыРасширеннаяПодсказка" id="23"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаЕдиницаДлины" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа единица длины</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа единица длины</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЕдиницаДлиныРасширеннаяПодсказка" id="18"/>
+					<ChildItems>
+						<InputField name="ЕдиницаДлины" id="7">
+							<DataPath>НаборКонстант.ЕдиницаДлины</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕдиницаДлиныКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ЕдиницаДлиныРасширеннаяПодсказка" id="9"/>
+							<Events>
+								<Event name="OnChange">ЕдиницаДлиныПриИзменении</Event>
+							</Events>
+						</InputField>
+						<LabelDecoration name="ДекорацияЕдиницаДлины" id="24">
+							<TextColor>style:TableFooterTextColor</TextColor>
+							<Font ref="style:SmallTextFont" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Укажите единицу измерения длины по-умолчанию.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЕдиницаДлиныКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="ДекорацияЕдиницаДлиныРасширеннаяПодсказка" id="26"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>НаборКонстант.ЕдиницаВысоты.Ref</Field>
+				<Field>НаборКонстант.ЕдиницаДлины.Ref</Field>
+				<Field>НаборКонстант.ЕдиницаШирины.Ref</Field>
+				<Field>НаборКонстант.ТипМобильногоУстройства.Ref</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

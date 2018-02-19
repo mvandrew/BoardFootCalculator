@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<Page name="ГруппаОсновное" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<InputField name="ТипПиломатериала" id="4">
+							<DataPath>Объект.ТипПиломатериала</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТипПиломатериалаКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ТипПиломатериалаРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<UsualGroup name="ГруппаШирина" id="28">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ширина</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ширина</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаШиринаРасширеннаяПодсказка" id="29"/>
+							<ChildItems>
+								<InputField name="Ширина" id="7">
+									<DataPath>Объект.Ширина</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>2</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="ШиринаКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ШиринаРасширеннаяПодсказка" id="9"/>
+								</InputField>
+								<InputField name="ЕдиницаШирины" id="16">
+									<DataPath>Объект.ЕдиницаШирины</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>4</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ЕдиницаШириныКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="ЕдиницаШириныРасширеннаяПодсказка" id="18"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаВысота" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа высота</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа высота</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВысотаРасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<InputField name="Высота" id="10">
+									<DataPath>Объект.Высота</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВысотаКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="ВысотаРасширеннаяПодсказка" id="12"/>
+								</InputField>
+								<InputField name="ЕдиницаВысоты" id="19">
+									<DataPath>Объект.ЕдиницаВысоты</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЕдиницаВысотыКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ЕдиницаВысотыРасширеннаяПодсказка" id="21"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДлина" id="32">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа длина</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа длина</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДлинаРасширеннаяПодсказка" id="33"/>
+							<ChildItems>
+								<InputField name="Длина" id="13">
+									<DataPath>Объект.Длина</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДлинаКонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="ДлинаРасширеннаяПодсказка" id="15"/>
+								</InputField>
+								<InputField name="ЕдиницаДлины" id="22">
+									<DataPath>Объект.ЕдиницаДлины</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЕдиницаДлиныКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ЕдиницаДлиныРасширеннаяПодсказка" id="24"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКомментарий" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа комментарий</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<InputField name="Комментарий" id="25">
+							<DataPath>Объект.Комментарий</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ВидыПиломатериалов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

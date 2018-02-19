@@ -16,6 +16,11 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТипМобильногоУстройства</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СохраняемыеНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЕдиницаШирины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЕдиницаВысоты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЕдиницаДлины</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.БазовыеНастройки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

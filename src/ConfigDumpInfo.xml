@@ -1,20 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
 	<ConfigVersions>
-		<Metadata name="CommonModule.ОбщегоНазначения" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95" configVersion="c72443edd102484b970f2d35acb67daf00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95.0" configVersion="1a573163bc6e734290b07f1f86616ee700000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="125b2493-7a0e-470d-8ca1-638d9f4ce627" configVersion="fd812532efbef34dba38edfd970f3f9f00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="125b2493-7a0e-470d-8ca1-638d9f4ce627.0" configVersion="ee64b2de8884d34b861990bf9a6e5a3e00000000"/>
-		<Metadata name="Configuration.BoardFootCalculator" id="00f54742-190d-499d-a8fa-67e9f779c2ed" configVersion="1db9e90ab11ff34b8675c126c0205bb300000000"/>
+		<Metadata name="Catalog.ВидыПиломатериалов" id="23e83601-0196-46fc-8f27-5e5471a148e4" configVersion="968adc95a634c247b80ceda5abe652e100000000">
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.ТипПиломатериала" id="2b9a434a-fc15-4974-b6db-1f59f149c24a"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.ЕдиницаДлины" id="32c889d8-3121-46da-b9c8-631a86a1c2ca"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Высота" id="7b338f1d-379a-4572-b1e9-fb0c906ae388"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.ЕдиницаШирины" id="8a4f5886-75e5-4b05-9e51-834e5542bdbd"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Комментарий" id="a358d4f6-ef3d-487b-b48e-82d104405907"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.ЕдиницаВысоты" id="a5af66fd-1f6b-41fa-b306-e58062be0f1b"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Ширина" id="a7a0ab3f-a13e-404e-8279-46995295866a"/>
+			<Metadata name="Catalog.ВидыПиломатериалов.Attribute.Длина" id="fb04119a-d2e6-4825-a23d-8328a2116fb0"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента" id="156a9766-c012-42b9-9a5c-e75338b7e068" configVersion="0ae4774e43e80842b4357de0c66fe0b800000000"/>
+		<Metadata name="Catalog.ВидыПиломатериалов.Form.ФормаЭлемента.Form" id="156a9766-c012-42b9-9a5c-e75338b7e068.0" configVersion="acbdd76983162e4a8eabb026b32a1d6000000000"/>
+		<Metadata name="CommonCommand.ОткрытьБазовыеНастройки" id="85eaba9f-9ff8-4574-8219-a802de543a80" configVersion="47f8a2f2d2c5464c8944fc76b93cab9c00000000"/>
+		<Metadata name="CommonCommand.ОткрытьБазовыеНастройки.CommandModule" id="85eaba9f-9ff8-4574-8219-a802de543a80.2" configVersion="eed9730ff5d2bd479e8861fc4fe766ac00000000"/>
+		<Metadata name="CommonForm.БазовыеНастройки" id="c5722afa-6951-458b-b8c3-36ec8336b7b2" configVersion="2c6d939f591b79448b28c9b123111aba00000000"/>
+		<Metadata name="CommonForm.БазовыеНастройки.Form" id="c5722afa-6951-458b-b8c3-36ec8336b7b2.0" configVersion="f619bc9bb3ab3e46b5234c915e5daa9f00000000"/>
+		<Metadata name="CommonModule.ИнициализацияНаСервере" id="89eb583e-dcc0-442a-a5fe-39089d7ba610" configVersion="0300a766ee26cd438ce0edaffaad345600000000"/>
+		<Metadata name="CommonModule.ИнициализацияНаСервере.Module" id="89eb583e-dcc0-442a-a5fe-39089d7ba610.0" configVersion="9bf65ac325de214688933df9eb609c5e00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95" configVersion="5d62efaf275cfb47bbdcf9e68d9f6fbf00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="37c587ef-847f-41a9-b5c1-2e3fdac3fd95.0" configVersion="4c2e705985b3444784be8ce832cf5f1900000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера" id="125b2493-7a0e-470d-8ca1-638d9f4ce627" configVersion="bf93009c5e5803469554f7e7eda8821200000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияВызовСервера.Module" id="125b2493-7a0e-470d-8ca1-638d9f4ce627.0" configVersion="60c5f86fec443a48b91d9a9a9d5a88f200000000"/>
+		<Metadata name="Configuration.BoardFootCalculator" id="00f54742-190d-499d-a8fa-67e9f779c2ed" configVersion="d311be7bf9894141b3550982aa16b8a800000000"/>
 		<Metadata name="Configuration.BoardFootCalculator.ManagedApplicationModule" id="fd714490-48fc-4af9-a7cb-baebde4950e8.6" configVersion="505309264165ed4c89d9836ecc2fdca500000000"/>
+		<Metadata name="Constant.ЕдиницаВысоты" id="795a9c96-6d62-4b5e-b9c6-4c510f55f275" configVersion="c4a64f2fe3ba8741bf9e0540b2f2400800000000"/>
+		<Metadata name="Constant.ЕдиницаВысоты.ValueManagerModule" id="795a9c96-6d62-4b5e-b9c6-4c510f55f275.0" configVersion="7134971e71dc5145a0a659396854790100000000"/>
+		<Metadata name="Constant.ЕдиницаДлины" id="0c61bcb3-11ae-4ae6-9cf9-425a54e1a0b8" configVersion="b08b23fbbc72b1429862089f0de5fd2600000000"/>
+		<Metadata name="Constant.ЕдиницаДлины.ValueManagerModule" id="0c61bcb3-11ae-4ae6-9cf9-425a54e1a0b8.0" configVersion="c792e744e6b25646bbca9965965c0faa00000000"/>
+		<Metadata name="Constant.ЕдиницаШирины" id="e95f1073-7505-4c4f-8248-e35ed51ab5b6" configVersion="81a8efbf9256fb4ea69cf108123900e900000000"/>
 		<Metadata name="Constant.ТипМобильногоУстройства" id="e47070fd-73da-4f7c-aaa1-217a0dd6ee54" configVersion="0de8c6ea6c987e428bc29f4577ed642f00000000"/>
+		<Metadata name="Enum.ЕдиницыИзмерения" id="01de89aa-adf4-4551-978f-baeac9ea7014" configVersion="dfc658f9872ee34ea6af4185baa863db00000000">
+			<Metadata name="Enum.ЕдиницыИзмерения.EnumValue.Метр" id="08cdf6da-48f3-430b-a542-0199d886b602"/>
+			<Metadata name="Enum.ЕдиницыИзмерения.EnumValue.Сантиметр" id="1f47c926-54b6-454b-bb83-ad66c311cdbe"/>
+			<Metadata name="Enum.ЕдиницыИзмерения.EnumValue.Миллиметр" id="7cbd52dd-f7bb-44e4-8b8d-d6a6a8c1b1f9"/>
+		</Metadata>
 		<Metadata name="Enum.ТипыМобильныхУстройств" id="11b14e95-5238-4df0-b171-fab09563de7c" configVersion="77929c1545c9da4399e9726de688cca400000000">
 			<Metadata name="Enum.ТипыМобильныхУстройств.EnumValue.Плафон" id="6d6c4096-081f-4ac0-b487-66b330e2e47f"/>
 			<Metadata name="Enum.ТипыМобильныхУстройств.EnumValue.Смартфон" id="7b711021-6c9d-429f-8cb7-de0b448e5b2c"/>
 			<Metadata name="Enum.ТипыМобильныхУстройств.EnumValue.Планшет" id="bee5899a-64fd-492e-9fd7-a09e31188f50"/>
 		</Metadata>
+		<Metadata name="Enum.ТипыПиломатериалов" id="c1dae7aa-a2ec-4008-a914-a83ccb49ef0b" configVersion="daa8ca8d609ed24a9726330c9c23fff700000000">
+			<Metadata name="Enum.ТипыПиломатериалов.EnumValue.Брус" id="2ba68a71-e612-4b1b-859d-4cf605d0f63a"/>
+			<Metadata name="Enum.ТипыПиломатериалов.EnumValue.Бревно" id="ddb9a782-f001-40a9-982a-8408f1b7485c"/>
+			<Metadata name="Enum.ТипыПиломатериалов.EnumValue.Доска" id="e9921fb2-6d41-4e4c-b7e9-fe45cdfee838"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СохраняемыеНастройки" id="af66ba58-3e33-43db-96f9-0cc74522d6e5" configVersion="fb014bb1d8a9814388ad36973dbff61a00000000">
+			<Metadata name="InformationRegister.СохраняемыеНастройки.Dimension.Владелец" id="385c17f6-76be-42b1-b927-08787f1fa26f"/>
+			<Metadata name="InformationRegister.СохраняемыеНастройки.Resource.ЗначенияНастроек" id="c81a4939-a1d6-4d03-bf1e-f5b8ba5bef07"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="53adfaac-5b1f-4e2c-aa6b-a567c1f7b844" configVersion="435d1670d0558d4c84557fe2142df2da00000000"/>
-		<Metadata name="Subsystem.Пиломатериалы" id="fab7ee5b-97ab-4ce3-9764-b7a8a4bb4668" configVersion="89088c013e23ff408c68d16e31fca41900000000"/>
-		<Metadata name="Subsystem.Служебная" id="bc1af231-72d2-4625-91fb-72d294ce2fe1" configVersion="d08595a652bc70439d7f8c0a434d76eb00000000"/>
+		<Metadata name="Subsystem.Пиломатериалы" id="fab7ee5b-97ab-4ce3-9764-b7a8a4bb4668" configVersion="51880483a610684cb92bbd11ad3f9bbb00000000"/>
+		<Metadata name="Subsystem.Пиломатериалы.CommandInterface" id="fab7ee5b-97ab-4ce3-9764-b7a8a4bb4668.1" configVersion="529ec5b6384c224f8e86f43100f1ea5200000000"/>
+		<Metadata name="Subsystem.Служебная" id="bc1af231-72d2-4625-91fb-72d294ce2fe1" configVersion="6f3c7f893181304c93d7f1010d718bee00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
