@@ -23,6 +23,47 @@
 			<Group>Vertical</Group>
 			<ExtendedTooltip name="ГруппаЕдиницыИзмеренияРасширеннаяПодсказка" id="11"/>
 			<ChildItems>
+				<UsualGroup name="ГруппаБазоваяЕдиницаИзмерения" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа базовая единица измерения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа базовая единица измерения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаБазоваяЕдиницаИзмеренияРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="БазоваяЕдиницаИзмерения" id="27">
+							<DataPath>НаборКонстант.БазоваяЕдиницаИзмерения</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<ContextMenu name="БазоваяЕдиницаИзмеренияКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="БазоваяЕдиницаИзмеренияРасширеннаяПодсказка" id="29"/>
+							<Events>
+								<Event name="OnChange">БазоваяЕдиницаИзмеренияПриИзменении</Event>
+							</Events>
+						</InputField>
+						<LabelDecoration name="ДекорацияБазоваяЕдиницаИзмерения" id="32">
+							<TextColor>style:TableFooterTextColor</TextColor>
+							<Font ref="style:SmallTextFont" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Единица измерения, которая используется для вычисления представлений расчётов.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияБазоваяЕдиницаИзмеренияКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ДекорацияБазоваяЕдиницаИзмеренияРасширеннаяПодсказка" id="34"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="ГруппаЕдиницаШирины" id="12">
 					<Title>
 						<v8:item>
@@ -159,6 +200,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>НаборКонстант.БазоваяЕдиницаИзмерения.Ref</Field>
 				<Field>НаборКонстант.ЕдиницаВысоты.Ref</Field>
 				<Field>НаборКонстант.ЕдиницаДлины.Ref</Field>
 				<Field>НаборКонстант.ЕдиницаШирины.Ref</Field>

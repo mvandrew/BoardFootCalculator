@@ -141,7 +141,7 @@
 			<VendorInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>www.msav.ru</v8:content>
+					<v8:content>http://www.msav.ru</v8:content>
 				</v8:item>
 			</VendorInformationAddress>
 			<ConfigurationInformationAddress/>
@@ -160,11 +160,13 @@
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<CommonModule>ИнициализацияНаСервере</CommonModule>
+			<CommonModule>ЕдиницыИзмеренияНаСервере</CommonModule>
 			<CommonCommand>ОткрытьБазовыеНастройки</CommonCommand>
 			<Constant>ТипМобильногоУстройства</Constant>
 			<Constant>ЕдиницаШирины</Constant>
 			<Constant>ЕдиницаВысоты</Constant>
 			<Constant>ЕдиницаДлины</Constant>
+			<Constant>БазоваяЕдиницаИзмерения</Constant>
 			<CommonForm>БазовыеНастройки</CommonForm>
 			<Catalog>ВидыПиломатериалов</Catalog>
 			<Enum>ТипыМобильныхУстройств</Enum>
